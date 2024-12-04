@@ -17,7 +17,7 @@
 3. **Install dependencies:**
 
     ```bash
-    yarn install
+    npm install
     ```
 
 4. **Configure your database settings in the `.env` file**
@@ -25,13 +25,13 @@
 5. **Run database migrations:**
 
     ```bash
-    yarn prisma migrate dev
+    npm prisma migrate dev
     ```
 
 6. **Start the server:**
 
     ```bash
-    yarn dev
+    npm run dev
     ```
 
 
