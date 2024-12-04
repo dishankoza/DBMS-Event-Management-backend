@@ -1,5 +1,40 @@
 # Eventify Back End
 
+## Getting Started
+
+1. **Clone this repository:**
+
+    ```bash
+    git clone git@github.com:dishankoza/Eventify-backend.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd event-management-backend
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    yarn install
+    ```
+
+4. **Configure your database settings in the `.env` file**
+
+5. **Run database migrations:**
+
+    ```bash
+    yarn prisma migrate dev
+    ```
+
+6. **Start the server:**
+
+    ```bash
+    yarn dev
+    ```
+
+
 ## Entity-Relationship Diagram (ERD)
 
 ```plaintext
@@ -1778,41 +1813,6 @@ Explore the powerful technologies that drive Eventify Back End, carefully chosen
 - 📧 **SendGrid** - A cloud-based email service for reliable and scalable email delivery.
 
 These technologies collectively empower Eventify Back End to deliver a secure, performant, and feature-rich experience.
-
-
-## Getting Started
-
-1. **Clone this repository:**
-
-    ```bash
-    git clone https://github.com/Hamed-Hasan/event-management-backend.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd event-management-backend
-    ```
-
-3. **Install dependencies:**
-
-    ```bash
-    yarn install
-    ```
-
-4. **Configure your database settings in the `.env` file**
-
-5. **Run database migrations:**
-
-    ```bash
-    yarn prisma migrate dev
-    ```
-
-6. **Start the server:**
-
-    ```bash
-    yarn dev
-    ```
 
 ## Configuration
 
