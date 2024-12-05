@@ -16,7 +16,7 @@ model User {
   password   String
   firstName  String
   lastName   String
-  contactNo  String     @unique
+  contactNo  String
   role       UserRole   @default(USER)
   gender     Gender     @default(male)
   profileImg String?
